@@ -1,0 +1,7 @@
+i = int(input())
+a = int(i/365)
+m = int((i-(a*365))/30)
+d = int(i-(m*30)-(a*365))
+print(f'{a} ano(s)')
+print(f'{m} mes(es)')
+print(f'{d} dia(s)')
